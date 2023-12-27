@@ -1,0 +1,48 @@
+<!--
+Student Names: Abeer Osman, Salwa Shama, and Sana Shama
+Student IDs: 4010368, 4010405, 4010404
+OS: Windows 11
+
+This small web page displays the water level of each Zamzam container from a Firebase database 
+and presents it in a visually appealing manner, aiding the monitor in sending a worker to refill them.
+
+Adapted from: https://www.electronicssimplified.in/feed/code-for-dht11-sensor-reading-web-application/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags for character set and viewport -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Title of the page -->
+        <title>Ultrasonic Readings</title>
+        
+        <!-- Link to the external stylesheet for styling -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Scripts for Chart.js and Firebase -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    </head>
+
+    <body>
+        <!-- Heading for the data section -->
+        <div class="data-head">
+            Zamzam Dispensers Monitoring 🕌 
+            <p>
+                قال رسول الله صلى الله عليه وآله وسلم: «خَيْرُ مَاءٍ عَلَى وَجْهِ الْأَرْضِ مَاءُ زَمْزَمَ؛ فِيهِ طَعَامٌ مِنَ الطُّعْمِ وَشِفَاءٌ مِنَ السُّقْمِ»
+            </p>
+        </div>
+
+        <!-- Container for the data reading-->
+        <div id="data-container-wrapper">
+            <!-- Data containers will be dynamically added here -->
+        </div>
+
+        <!-- Script for Firebase database connection -->
+        <script src="DB_connection.js"></script>
+    </body>
+</html>
