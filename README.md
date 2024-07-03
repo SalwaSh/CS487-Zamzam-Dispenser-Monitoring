@@ -36,9 +36,11 @@ Our solution utilizes ultrasonic sensors and ESP8266 devices attached to each co
 8. Navigate to Gateway.ino file on the Backend folder.
 9. Reassign these variables: WIFI_SSID and WIFI_PASSWORD depend on your setup.
 10. Upload the code to the second ESP8266 device.
-11. Navigate to DB_connection.js file in Frontend folder.
-12. Reassign the firebaseConfig variable depend on your setup.
-13. Open home.html file on your browser.
+11. Create a new project in your Firebase account.
+12. Create a new tabele inside the project.
+13. Navigate to DB_connection.js file in Frontend folder.
+14. Reassign the firebaseConfig variable depend on your setup.
+15. Open home.html file on your browser.
 
 
 ## Demo 📹
