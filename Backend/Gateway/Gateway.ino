@@ -6,10 +6,8 @@
 #include <Firebase_ESP_Client.h>
 
 // Define the Wi-Fi credentials
-// #define WIFI_SSID "AndroidAP40AA"
-// #define WIFI_PASSWORD "cukj2015"
-#define WIFI_SSID "ManazelMarez 202"
-#define WIFI_PASSWORD "12344321"
+#define WIFI_SSID "XXXXXX"
+#define WIFI_PASSWORD "XXXXX"
 // Define the Project Database URL and Firebase API Key
 #define DATABASE_URL 
 #define API_KEY 
